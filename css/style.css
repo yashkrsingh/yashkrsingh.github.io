@@ -1,0 +1,20 @@
+body {
+	height: 200vh;
+}
+
+.nav {
+	background-color: #ffffff !important;
+}
+
+.parallax img {
+    width: 100%; 
+}
+
+.thin-text {
+	font-weight: 300px;
+	background: rgba(46, 47, 48, 0.15);
+	padding: 40px;
+
+}
+        
+
