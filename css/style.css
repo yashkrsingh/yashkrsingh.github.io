@@ -1,5 +1,30 @@
-body {
-	height: 200vh;
+html {
+	font-family: GillSans, Calibri, Trebuchet, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+}
+
+.logo {
+	margin-left: 10px;
+	margin-top: 7px;
+    display: inline-block;
+    vertical-align: middle
+    height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px)
+  .container {
+    width: 85%;
+}
+@media only screen and (min-width: 993px)
+  .container {
+    width: 70%;
 }
 
 .nav {
@@ -10,11 +35,26 @@ body {
     width: 100%; 
 }
 
-.thin-text {
-	font-weight: 300px;
-	background: rgba(46, 47, 48, 0.15);
+.pad-surface {
+	background: rgba(46, 47, 48, 0.10);
 	padding: 40px;
+}
 
+.title-text {
+	font-size: 40px;
+	font-weight: 400;
 }
         
+.subtitle-text {
+	font-size: 25px;
+}
 
+.button-left {
+	background: rgba(117, 126, 133, 0.5);
+	margin-right: 10px !important;
+}
+
+.button-right {
+	background: rgba(117, 126, 133, 0.5);
+	margin-left: 10px !important;
+}
